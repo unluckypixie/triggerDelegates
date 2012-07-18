@@ -6,6 +6,9 @@
  * Version: 1.0.0
  * Requires jQuery 1.7+
  */
+
+(function($) {
+
 $.extend($.fn, {
 	triggerDelegates: function(event){
 		var delegate = $(this);
@@ -22,3 +25,5 @@ $.extend($.fn, {
 		}
 	}
 });
+
+})(jQuery);
